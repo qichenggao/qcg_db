@@ -3,7 +3,7 @@
 @section('title','首页')
 
 @section('content')
-<section id="inicio" class="salmonGlow in" data-rel="#slide1">
+<section id="inicio" class="salmonGlow in" data-rel="#article">
      <div class="splash layer" data-depth="0.60" style="z-index:9999;margin-left:1%;">
         <div class="welcome" style="height:500px; width:630px; text-align:left" ><br>
             <hr class="fat blue">
@@ -15,21 +15,52 @@
     </div>
     <div class="splash layer" data-depth="0.30" style="z-index:2"><img src="{{ asset('img/splash-welcome.png') }}"></div>
     <div class="splash layer" data-depth="0.20" style="z-index:1"><img src="{{ asset('img/particles-welcome.png') }}" style="opacity:0.4"></div>
-    <a href="#slide1" class="arrowDown"><img src="{{ asset('img/arrow-home.png') }}" ></a>
+    <a href="#article" class="arrowDown"><img src="{{ asset('img/arrow-home.png') }}" ></a>
 </section>
 
-<section id="slide1" class="blueGlow" data-rel="#slide2">
-     <div class="splash layer" data-depth="0.60" style="z-index:9999;margin-top:10%;margin-left:1%;">
-        <div class="welcome" style="height:500px; width:580px; text-align:left" ><br>
+
+<section id="article" class="blueGlow in" data-rel="#slide2">
+    <div class="wpCont layer" data-depth="0.0">
+        <div class="welcome">
             <hr class="fat">
-            <p >
-                <strong>QQQ<br>WWW</strong>RRR
+            <p>
+                <strong>hablemos</strong>
             </p>
             <hr>
         </div>
+        <div class="bajada">
+            <strong>Qué esperas para contactarnos? </strong>
+            <br>
+            Escribinos a <a href="mailto:hola@estudionk.com">hola@estudionk.com</a> o llamanos al +54 911 4161 2680
+        </div>
+        <div class="wpBoxCont">
+            <div class="boxCont">
+                <h2>nuestras oficinas</h2>
+                <p><strong>Buenos Aires</strong><br>
+                Av. del Libertador 6680, 1º.
+                (CP1428), Buenos Aires.<br>
+                +54 911 4161 2680</p>
+            </div>
+            <div class="boxCont">
+                <h2>DESARROLLO DE NEGOCIOS</h2>
+                <p><strong>Lucas Nikitczuk</strong><br>
+                Director/Diseñador<br>
+                +54 911 4161 2680<br><br></p>
+            </div>
+            <div class="boxCont">
+                <h2>buscando un cambio?</h2>
+                <p>Siempre estamos buscando gente
+                que realmente ame lo que hace,
+                si sos uno de ellos escribinos a</p>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="mailOver">
+            <div class="arrowIr"></div>
+        </div>
     </div>
-    <div class="splash layer" data-depth="0.30" style="z-index:1"><img src="{{ asset('img/splash-estudio.png') }}"></div>
-    <div class="splash layer" data-depth="0.20" style="z-index:1"><img src="{{ asset('img/particles-estudio.png') }}"></div>
+    <div class="splash layer" data-depth="0.30" ><img src="{{ asset('img/splash-estudio.png') }}"></div>
+    <div class="splash layer" data-depth="0.20" ><img src="{{ asset('img/particles-estudio.png') }}"></div>
     <a href="#slide2" class="arrowDown"><img src="{{ asset('img/arrow-home-salmon.png') }}"></a>
 </section>
 
@@ -150,7 +181,7 @@
                 </a>
             </li>
         </ul>
-        <div  class="more"><a href=""><strong>MORE...</strong></a></div>
+        <div  class="more"><a href="{{ route('articles.index') }}"><strong>MORE...</strong></a></div>
     </div>
 
 
@@ -185,11 +216,11 @@ $(document).ready(function(){
 //PARALLAX
 //if($(window).width() > 768){
     var scene = document.getElementById('inicio');
-    var scene1 = document.getElementById('slide1');
+    var scene1 = document.getElementById('article');
     var scene2 = document.getElementById('slide2');
     var scene3 = document.getElementById('slide3');
     var parallax = new Parallax(scene);
-    var parallax = new Parallax(slide1);
+    var parallax = new Parallax(article);
     var parallax = new Parallax(slide2);
     var parallax = new Parallax(slide3);
 //}
@@ -275,7 +306,7 @@ if($(window).width() > 768){
                 handleAvailable = false;
 
                 if(scrol == 0){
-                    playSection('slide1', 0);
+                    playSection('article', 0);
                     scrol = 1;
 
                 }else if(scrol == 1){
@@ -311,7 +342,7 @@ if($(window).width() > 768){
                     playSection('slide2', 0);
                     scrol = 1;
                 }else if(scrol == 1){
-                    playSection('slide1', 0);
+                    playSection('article', 0);
                     scrol = 0;
                 } else if(scrol == 0){
                     playSection('inicio', 0);

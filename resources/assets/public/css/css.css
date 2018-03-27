@@ -315,10 +315,25 @@ hr.blue{background:#063c4a}
 #contacto .wpBoxCont .boxCont{width:210px;margin:20px;float:left}
 #contacto .boxCont h2{font-size:26px;margin-bottom:20px;}
 #contacto .boxCont p{font-family:'Gotham-Light';line-height:1.4;font-size:14px;opacity:0.6;margin-bottom:20px}
-#contacto .boxCont .arrowIr{width:25px;height:25px;background-image:url(../img/arrow-menu-salmon.png);border-width:2px;float:left}
+#contacto .arrowIr{width:25px;height:25px;background-image:url(../img/arrow-menu-salmon.png);border-width:2px;position: absolute;left: 75%}
 #contacto .boxCont span{margin-top:6px;font-family:'Gotham-Light';line-height:1.4;font-size:14px;opacity:1;float:left;margin-left:10px}
 #contacto .mailOver:hover a{color:#ff5859; opacity:1;}
 #contacto .mailOver:hover .arrowIr{background-color:#FFF}
+
+
+/*ARTICLE*/
+#article .welcome{margin-top:12%;width:750px;margin-bottom:50px}
+#article .bajada{font-size:23px;width:750px;margin:50px auto;font-family:'Gotham-Light';line-height:1.4}
+#article .bajada a:hover{color:#ff5859}
+#article .wpBoxCont{width:750px;margin:auto;padding:20px 0}
+#article .wpBoxCont .boxCont{width:210px;margin:20px;float:left}
+#article .boxCont h2{font-size:26px;margin-bottom:20px;}
+#article .boxCont p{font-family:'Gotham-Light';line-height:1.4;font-size:14px;opacity:0.6;margin-bottom:20px}
+#article .arrowIr{z-index: 99;width:50px;height:50px;background-image:url(../img/arrow-menu-salmon.png);border-width:2px;position:absolute;left: 75%;}
+#article .boxCont span{margin-top:6px;font-family:'Gotham-Light';line-height:1.4;font-size:14px;opacity:1;float:left;margin-left:10px}
+#article .mailOver:hover a{color:#ff5859; opacity:1;}
+#article .mailOver:hover .arrowIr{background-color:#FFF}
+
 /*PROYECTOS*/
 #proyectos .welcome{margin-bottom:50px;margin-top:12%;width:490px;}
 #proyectos .wpProy{width:1020px;margin:auto;height:1500px;position:relative}

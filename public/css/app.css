@@ -4,3 +4,42 @@
   padding: 0.966%;
 }
 
+.articles-num {
+  font-size: xx-large;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.articles-pages {
+  z-index: 7;
+  float: right;
+}
+
+.articles-pages li {
+  float: left;
+  margin: 0 3px;
+}
+
+.articles-pages li a {
+  display: block;
+  border: 4px solid #FFF;
+  width: 32px;
+  height: 32px;
+  background-color: #FFF;
+  border-radius: 40px;
+  background-image: url(/images/arrow-menu-salmon.png?9422b39a20eb31fd10a2215bad504439);
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 0;
+}
+
+.articles-pages li a:hover {
+  background-color: transparent;
+  background-image: url(/images/arrow-menu.png?0d548263e9fe9196d4f3c5c8942eb94b);
+}
+
+.articles-pages li:first-child {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
+

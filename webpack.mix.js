@@ -17,6 +17,9 @@ mix.js('resources/assets/js/app.js', 'public/js')
    .copyDirectory('resources/assets/public/css', 'public/css')
    .copyDirectory('resources/assets/public/img', 'public/img')
    .copyDirectory('resources/assets/public/fonts', 'public/fonts')
+   .copyDirectory('resources/assets/masonry/js', 'public/js')
+   .copyDirectory('resources/assets/masonry/css', 'public/css')
+   .copyDirectory('resources/assets/masonry/images', 'public/img')
    .copyDirectory('resources/assets/hexagons/css', 'public/css')
    .copyDirectory('resources/assets/hexagons/example_img', 'public/img');
 

@@ -13,3 +13,5 @@
 
 Route::get('/', 'IndexController@index')->name('home');
 
+
+Route::resource('articles', 'ArticlesController', ['only' => ['index', 'show', 'create', 'store', 'update', 'edit', 'destroy']]);

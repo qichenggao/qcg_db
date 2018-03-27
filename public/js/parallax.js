@@ -229,9 +229,6 @@
     if (style.getPropertyValue('position') === 'static') {
       this.element.style.position = 'relative';
     }
-    if (this.element.id == slide3) {
-          this.layer.style.position = 'absolute';
-    }
     // Configure Layer Styles
     for (var i = 0, l = this.layers.length; i < l; i++) {
 

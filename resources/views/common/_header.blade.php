@@ -6,8 +6,12 @@
 <header>
   <div class="logo">
     <a href="index.html">
-    <img src="{{ asset('img/logo-salmon.png') }}" class="salmon"/>
-    <img src="{{ asset('img/logo-azul.png') }}" class="blue"/>
+@if (route_class() == 'articles')
+        <img src="{{ asset('img/logo-salmon.png') }}" class="salmon"/>
+@else
+        <img src="{{ asset('img/logo-salmon.png') }}" class="salmon"/>
+        <img src="{{ asset('img/logo-azul.png') }}" class="blue"/>
+@endif
     </a>
   </div>
   <div class="btnMenu"><i></i><i></i><i></i></div>
@@ -25,9 +29,11 @@
     </div>
   </nav>
 </header>
+@if (route_class() != 'articles')
 <div id="nav_main">
     <div class="nav-main" data-section="inicio"></div>
-    <div class="nav-main" data-section="slide1"></div>
+    <div class="nav-main" data-section="article"></div>
     <div class="nav-main" data-section="slide2"></div>
     <div class="nav-main" data-section="slide3"></div>
 </div>
+@endif
