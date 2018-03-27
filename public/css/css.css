@@ -329,7 +329,7 @@ hr.blue{background:#063c4a}
 #article .wpBoxCont .boxCont{width:210px;margin:20px;float:left}
 #article .boxCont h2{font-size:26px;margin-bottom:20px;}
 #article .boxCont p{font-family:'Gotham-Light';line-height:1.4;font-size:14px;opacity:0.6;margin-bottom:20px}
-#article .arrowIr{z-index: 99;width:50px;height:50px;background-image:url(../img/arrow-menu-salmon.png);border-width:2px;position:absolute;left: 75%;}
+#article .arrowIr{z-index: 99;width:50px;height:50px;background-image:url(../img/arrow-menu-salmon.png);border-width:2px;position:absolute;left: 75%;cursor: pointer;}
 #article .boxCont span{margin-top:6px;font-family:'Gotham-Light';line-height:1.4;font-size:14px;opacity:1;float:left;margin-left:10px}
 #article .mailOver:hover a{color:#ff5859; opacity:1;}
 #article .mailOver:hover .arrowIr{background-color:#FFF}

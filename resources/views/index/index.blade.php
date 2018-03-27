@@ -24,34 +24,33 @@
         <div class="welcome">
             <hr class="fat">
             <p>
-                <strong>hablemos</strong>
+                <strong>工作日志</strong>
             </p>
             <hr>
         </div>
         <div class="bajada">
-            <strong>Qué esperas para contactarnos? </strong>
+            <strong>测试标题 </strong>
             <br>
-            Escribinos a <a href="mailto:hola@estudionk.com">hola@estudionk.com</a> o llamanos al +54 911 4161 2680
+            测试简介
         </div>
         <div class="wpBoxCont">
             <div class="boxCont">
-                <h2>nuestras oficinas</h2>
-                <p><strong>Buenos Aires</strong><br>
-                Av. del Libertador 6680, 1º.
-                (CP1428), Buenos Aires.<br>
-                +54 911 4161 2680</p>
+                <h2>测试标题1</h2>
+                <p><strong>2018.3.27</strong><br>
+                测试简介
+                </p>
             </div>
             <div class="boxCont">
-                <h2>DESARROLLO DE NEGOCIOS</h2>
-                <p><strong>Lucas Nikitczuk</strong><br>
-                Director/Diseñador<br>
-                +54 911 4161 2680<br><br></p>
+                <h2>测试标题2</h2>
+                <p><strong>2018.3.28</strong><br>
+                测试简介
+                </p>
             </div>
             <div class="boxCont">
-                <h2>buscando un cambio?</h2>
-                <p>Siempre estamos buscando gente
-                que realmente ame lo que hace,
-                si sos uno de ellos escribinos a</p>
+                <h2>测试标题3</h2>
+                <p><strong>2018.3.29</strong><br>
+                测试简介
+                </p>
             </div>
         </div>
         <div class="clear"></div>
@@ -69,7 +68,7 @@
         <div class="welcome" style="height:400px; width:660px; text-align:left; margin-top:5%" ><br>
             <hr class="fat blue">
             <p>
-                <strong>111</strong>222
+                <strong>暂时不知道放什么</strong>虚位以待...
             </p>
             <hr>
         </div>
@@ -85,103 +84,103 @@
             <li class="hex">
                 <a class="hexIn" href="#">
                     <img src="img/1.png" alt="" />
-                    <h1>This is a title</h1>
-                    <p>Some sample text about the article this hexagon leads to</p>
+                    <h1>照片墙1</h1>
+                    <p>测试简介</p>
                 </a>
             </li>
             <li class="hex">
                 <a class="hexIn" href="#">
                     <img src="img/2.png" alt="" />
-                    <h1>This is a title</h1>
-                    <p>Some sample text about the article this hexagon leads to</p>
+                    <h1>照片墙2</h1>
+                    <p>测试简介</p>
                 </a>
             </li>
             <li class="hex">
                 <a class="hexIn" href="#">
                     <img src="img/3.png" alt="" />
-                    <h1>This is a title</h1>
-                    <p>Some sample text about the article this hexagon leads to</p>
+                    <h1>照片墙3</h1>
+                    <p>测试简介</p>
                 </a>
             </li>
             <li class="hex">
                 <a class="hexIn" href="#">
                     <img src="img/4.png" alt="" />
-                    <h1>This is a title</h1>
-                    <p>Some sample text about the article this hexagon leads to</p>
+                    <h1>照片墙11</h1>
+                    <p>测试简介</p>
                 </a>
             </li>
             <li class="hex">
                 <a class="hexIn" href="#">
                     <img src="img/5.png" alt="" />
-                    <h1>This is a title</h1>
-                    <p>Some sample text about the article this hexagon leads to</p>
+                    <h1>照片墙4</h1>
+                    <p>测试简介</p>
                 </a>
             </li>
             <li class="hex">
                 <a class="hexIn" href="#">
                     <img src="img/6.png" alt="" />
-                    <h1>This is a title</h1>
-                    <p>Some sample text about the article this hexagon leads to</p>
+                    <h1>照片墙11</h1>
+                    <p>测试简介</p>
                 </a>
             </li>
             <li class="hex">
                 <a class="hexIn" href="#">
                     <img src="img/7.png" alt="" />
-                    <h1>This is a title</h1>
-                    <p>Some sample text about the article this hexagon leads to</p>
+                    <h1>照片墙11</h1>
+                    <p>测试简介</p>
                 </a>
             </li>
             <li class="hex">
                 <a class="hexIn" href="#">
                     <img src="img/8.png" alt="" />
-                    <h1>This is a title</h1>
-                    <p>Some sample text about the article this hexagon leads to</p>
+                    <h1>照片墙11</h1>
+                    <p>测试简介</p>
                 </a>
             </li>
             <li class="hex">
                 <a class="hexIn" href="#">
                     <img src="img/1.png" alt="" />
-                    <h1>This is a title</h1>
-                    <p>Some sample text about the article this hexagon leads to</p>
+                    <h1>照片墙11</h1>
+                    <p>测试简介</p>
                 </a>
             </li>
             <li class="hex">
                 <a class="hexIn" href="#">
                     <img src="img/2.png" alt="" />
-                    <h1>This is a title</h1>
-                    <p>Some sample text about the article this hexagon leads to</p>
+                    <h1>照片墙11</h1>
+                    <p>测试简介</p>
                 </a>
             </li>
             <li class="hex">
                 <a class="hexIn" href="#">
                     <img src="img/3.png" alt="" />
-                    <h1>This is a title</h1>
-                    <p>Some sample text about the article this hexagon leads to</p>
+                    <h1>照片墙11</h1>
+                    <p>测试简介</p>
                 </a>
             </li>
             <li class="hex">
                 <a class="hexIn" href="#">
                     <img src="img/4.png" alt="" />
-                    <h1>This is a title</h1>
-                    <p>Some sample text about the article this hexagon leads to</p>
+                    <h1>照片墙11</h1>
+                    <p>测试简介</p>
                 </a>
             </li>
             <li class="hex">
                 <a class="hexIn" href="#">
                     <img src="img/5.png" alt="" />
-                    <h1>This is a title</h1>
-                    <p>Some sample text about the article this hexagon leads to</p>
+                    <h1>照片墙11</h1>
+                    <p>测试简介</p>
                 </a>
             </li>
             <li class="hex">
                 <a class="hexIn" href="#">
                     <img src="img/6.png" alt="" />
-                    <h1>This is a title</h1>
-                    <p>Some sample text about the article this hexagon leads to</p>
+                    <h1>照片墙11</h1>
+                    <p>测试简介</p>
                 </a>
             </li>
         </ul>
-        <div  class="more"><a href="{{ route('articles.index') }}"><strong>MORE...</strong></a></div>
+        <div  class="more"><a href="{{ route('img.index') }}"><strong>MORE...</strong></a></div>
     </div>
 
 
