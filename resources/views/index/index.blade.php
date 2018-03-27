@@ -8,7 +8,7 @@
         <div class="welcome" style="height:500px; width:630px; text-align:left" ><br>
             <hr class="fat blue">
             <p >
-                <strong>ABC</strong>DEF
+                <strong>开发中</strong>茁壮成长...
             </p>
             <hr>
         </div>
