@@ -62,7 +62,7 @@ hr.fat{height:8px;background:#ff5859}
 hr.blue{background:#063c4a}
 #inicio, #slide1, #slide2{cursor:pointer}
 .welcome{font-size:65px;text-transform:uppercase;position:relative;width:735px;z-index:2;margin-left:auto;margin-right:auto}
-.welcome p{display:block;padding:60px 0;letter-spacing:-5px;font-family:'Gotham-Light', sans-serif;line-height:0.85}
+.welcome p{display:block;padding:60px 0;letter-spacing:-5px;font-family:'Gotham-Light', sans-serif;line-height:1}
 .welcome strong{display:block}
 /*splash*/
 .splash{width:80%;text-align:center;position:absolute;z-index:-1;left:0;padding:5% 0}
