@@ -17,9 +17,9 @@ Route::resource('articles', 'ArticlesController', ['only' => ['index', 'show', '
 
 
 
-'php artisan make:scaffold Topic --schema="
-Img:string:index
-,category_id:integer:unsigned:index
-,view_count:integer:unsigned:default(0)
-,order:integer:unsigned:default(0)
-,date"'
+// 'php artisan make:scaffold Topic --schema="
+// Img:string:index
+// ,category_id:integer:unsigned:index
+// ,view_count:integer:unsigned:default(0)
+// ,order:integer:unsigned:default(0)
+// ,date"'
