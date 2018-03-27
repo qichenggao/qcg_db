@@ -180,7 +180,7 @@
                 </a>
             </li>
         </ul>
-        <div  class="more"><a href="{{ route('article.index') }}"><strong>MORE...</strong></a></div>
+        <div  class="more"><a href="{{ route('articles.index') }}"><strong>MORE...</strong></a></div>
     </div>
 
 
